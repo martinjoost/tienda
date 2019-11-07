@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1220px) {
+    .a_logo_navbar>img {
+        width: 8%;
+        position: relative;
+        left: 52%;
+    }
+    .form_search_navbar {
+        display: none;
+    }
+}
+
+.nav-item>a {
+    color: white;
+    font-weight: bold;
+    transition-duration: 0.2s;
+}
+
+.nav-item>a:hover {
+    background: white;
+    color: black;
+}
+
+.navbar-nav>li {
+    text-align: center;
+}
+
+.navbar-toggler {
+    background: white;
+}

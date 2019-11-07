@@ -1,0 +1,28 @@
+.gl-cta {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-family: AdihausDIN, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    align-items: center;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: flex-start;
+    line-height: 50px;
+    min-height: 50px;
+    padding: 0 21px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: transform .1s cubic-bezier(.3, 0, .45, 1), color .1s cubic-bezier(.3, 0, .45, 1), border .1s cubic-bezier(.3, 0, .45, 1), background .1s cubic-bezier(.3, 0, .45, 1);
+    white-space: nowrap;
+    width: auto;
+}
+
+.gl-cta--primary {
+    background-color: #000;
+    border-color: #fff;
+    color: #fff;
+    height: 50px;
+}
